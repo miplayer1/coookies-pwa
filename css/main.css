@@ -1,0 +1,152 @@
+/**
+	* @site   Marque/Projet
+	* @autors 
+	* @media Médias pour lesquels la feuille de style est appliquée
+	* @version 1.0
+	* @lastmodified Oct, 20 2017
+	
+	*/
+	
+/**
+	*HELPER
+	
+	*colors
+	*
+	
+	*/
+	
+	
+/**
+	
+	*
+	* GENERAL
+	*
+	*/
+
+h1{
+  font-size: 1.8rem;
+}
+h2 {
+  font-size: 2rem;
+}
+
+p {
+	font-size: 1.5rem;
+}
+
+/**
+	
+	*
+	* HEADER
+	*
+	*/	
+	
+header {
+
+  position: relative;
+  display: flex;
+  background-color: #0097A7;
+  background-image: url("../assets/img/fond-cookies.jpeg");
+  background-size: cover;
+  background-position:center center;
+  height: 95vh;
+
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.logo {
+	z-index: 2;	
+}
+
+.header-content {
+  margin: auto;
+  z-index: 2;
+}
+
+#section1 p {
+	font-size: 1rem;
+}
+
+
+/**
+	
+	*
+	* NAV
+	*
+	*/
+#sidenav-overlay {
+  z-index: 1;
+}
+
+
+/**
+	
+	*
+	* SECTIONS
+	*
+	*/
+	
+#section1, #section2, #contact {
+padding-top: 50px;
+padding-bottom: 50px;
+}
+.separator {
+	margin-bottom: 30px;
+}
+
+/**
+	
+	*
+	* CARTES
+	*
+	*/
+	
+
+
+.activator img {
+	margin: 30px;
+}
+
+/**
+	
+	*
+	* SECTION 2
+	*
+	*/
+	
+/**
+	
+	*
+	* SECTION 3 INSTAGRAM
+	*/
+#instafeed  {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+/**
+	
+	*
+	* FOOTER
+	*
+	*/
+footer p {
+	font-size: 1rem;
+}
+
+.social a {
+	padding: 5px;
+}
+
+.no-margin-bottom {
+	margin-bottom: 0!important;
+}
+.impression li {
+	font-size: 1rem;
+} 
