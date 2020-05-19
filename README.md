@@ -1,1 +1,1 @@
-# cookies
+# (wip) PWA coookies
